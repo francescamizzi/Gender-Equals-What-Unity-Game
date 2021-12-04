@@ -8,6 +8,14 @@ TagManager:
   - Table
   - Barrier
   - Dialogue
+  - StartBox
+  - Bed
+  - makeBedBox
+  - messyBlanket
+  - nextButton
+  - tidyBlanket
+  - cleanRoomBox
+  - pileOfClothes
   layers:
   - Default
   - TransparentFX
