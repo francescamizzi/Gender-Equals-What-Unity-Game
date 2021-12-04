@@ -14,6 +14,17 @@ public class makeBed : MonoBehaviour
     public AudioSource audio;
     public AudioClip audioClip;
     public int mouseClicks = 0;
+    public bool success = false;
+    public GameObject check;
+    public GameObject nextButton;
+
+    public itemsAppear items;
+
+    void Start()
+    {
+        check.SetActive(false);
+        nextButton.SetActive(false);
+    }
 
     void Update()
     {
@@ -24,8 +35,14 @@ public class makeBed : MonoBehaviour
 
         if(mouseClicks >= 10)
         {
+
             gameObject.SetActive(false);
             audio.PlayOneShot(audioClip);
+            success = true;
+
+            check.SetActive(true);
+            nextButton.SetActive(true);
+            //SceneManager.UnloadSceneAsync("makebed");
         }
 
         if(!gameObject.activeSelf){
@@ -34,4 +51,12 @@ public class makeBed : MonoBehaviour
         }
     
     }
+
+    public void nextScene()
+    {
+        SceneManager.UnloadSceneAsync("makebed");
+        items = GameObject.FindObjectOfType(typeof(itemsAppear)) as itemsAppear;
+        items.blanketAppears(success);
+    }
+
 }
