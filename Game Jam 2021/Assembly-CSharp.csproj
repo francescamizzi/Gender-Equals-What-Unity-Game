@@ -53,12 +53,18 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\StartBoxManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
     <Compile Include="Assets\Scripts\makeBed.cs" />
     <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
+    <Compile Include="Assets\Scripts\Roomate\WanderingBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Roomate\Idle.cs" />
     <Compile Include="Assets\Scripts\FillFood.cs" />
     <Compile Include="Assets\Scripts\pickupItems.cs" />
+    <Compile Include="Assets\Scripts\itemsAppear.cs" />
     <Compile Include="Assets\YouWin.cs" />
+    <Compile Include="Assets\Scripts\Roomate\PatrolSpots.cs" />
     <Compile Include="Assets\Scripts\Popup.cs" />
     <Compile Include="Assets\Scripts\SetUp.cs" />
     <Compile Include="Assets\Scripts\ProgressBar.cs" />
@@ -70,12 +76,10 @@
     <Compile Include="Assets\Scripts\Camera\FollowCharacter.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\WashDishes.cs" />
+    <Compile Include="Assets\Scripts\Objects\makeBedCollision.cs" />
     <Compile Include="Assets\Scripts\DragDrop.cs" />
     <Compile Include="Assets\Scripts\ClickAndFill.cs" />
-    <Compile Include="Assets\Scripts\StartBoxManager.cs" />
-    <Compile Include="Assets\Scripts\Objects\makeBedCollision.cs" />
-    <Compile Include="Assets\Scripts\itemsAppear.cs" />
-    <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
+    <Compile Include="Assets\Scripts\Roomate\DebCollider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
