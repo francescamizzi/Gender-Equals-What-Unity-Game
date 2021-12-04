@@ -8,6 +8,8 @@ TagManager:
   - Table
   - Barrier
   - Dialogue
+  - Smudge
+  - dumbbell
   layers:
   - Default
   - TransparentFX
