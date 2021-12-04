@@ -2823,6 +2823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   niceBlanket: {fileID: 1885771074}
+  clothes: {fileID: 0}
 --- !u!4 &1719275813
 Transform:
   m_ObjectHideFlags: 0
@@ -2850,6 +2851,7 @@ GameObject:
   - component: {fileID: 1736875930}
   - component: {fileID: 1736875929}
   - component: {fileID: 1736875933}
+  - component: {fileID: 1736875934}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2953,6 +2955,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c4c820b28822b94e9b14db043e9c757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1736875934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736875928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc60a6bb947b1a409865fdeeffae8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 6506269204485294348, guid: d4ae491ae563f29459bc113c1f77fd63, type: 3}
 --- !u!1 &1885771074
 GameObject:
   m_ObjectHideFlags: 0

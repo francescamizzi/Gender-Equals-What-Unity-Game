@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/UI/IntroMenu.unity
+    guid: c61fa7f24eb771247844ea45e1f31821
   - enabled: 1
-    path: Assets/Scenes/makebed.unity
-    guid: 07b6576dfa5ae7e4e9fe69e96365ca6c
+    path: Assets/Scenes/UI/Instructions.unity
+    guid: 08b612a589213cb4085818cbb646d2d1
   - enabled: 1
-    path: Assets/Scenes/cleanroom.unity
-    guid: cc2c7307602fbdd4482e17123a8dc520
+    path: Assets/Scenes/BedroomStart.unity
+    guid: 203805256e27e4742858a4056d46e2f7
   m_configObjects: {}
