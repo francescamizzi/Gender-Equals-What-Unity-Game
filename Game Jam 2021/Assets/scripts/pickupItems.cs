@@ -1,7 +1,7 @@
 //Description
 // This is the class for picking up the collectibles. It allows the user to
 // to pick up the items on the floor in the 'clean room' minigame. 
- #pragma strict
+#pragma strict
 
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +11,6 @@ using UnityEngine.UI;
 
 public class pickupItems : MonoBehaviour
 {
-    public Text displayMessage;
     public AudioSource audio;
     public AudioClip audioClip;
     private int counter = 0;
