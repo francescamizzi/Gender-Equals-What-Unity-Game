@@ -47,18 +47,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Minigames\PuzzleManager.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
-     <Compile Include="Assets\Scripts\Minigames\Item.cs" />
+     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Sound\PlaySoundOnStart.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
-     <Compile Include="Assets\Scripts\Minigames\ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\Minigames\PuzzleSlot.cs" />
+     <Compile Include="Assets\Scripts\Minigames\PuzzlePiece.cs" />
      <Compile Include="Assets\Scripts\pickupItems.cs" />
      <Compile Include="Assets\Scripts\ContinueUI.cs" />
-     <Compile Include="Assets\Scripts\Minigames\ItemManager.cs" />
      <Compile Include="Assets\Scripts\SetUp.cs" />
      <Compile Include="Assets\Scripts1\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts1\Camera\FollowCharacter.cs" />
+     <Compile Include="Assets\Scripts\Sound\VolumeSlider.cs" />
      <Compile Include="Assets\Scripts\UI\IntroMenu.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
