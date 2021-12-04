@@ -1,28 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class ItemSlot : MonoBehaviour, IDropHandler
+public class ItemSlot : MonoBehaviour
 {
-    int counter = 0;
+    public SpriteRenderer Renderer;
 
-    
+    [SerializeField] private AudioSource _source;
 
-    public void OnDrop(PointerEventData eventData)
+    public void Placed()
     {
-        Debug.Log("OnDrop");
-        if(eventData.pointerDrag != null)
-        {
-            // snapping into position
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-
-            counter ++;
-
-            if(counter == 7)
-            {
-
-            }
-        }
+        _source.Play();
     }
 }

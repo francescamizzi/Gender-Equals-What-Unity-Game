@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngine.SceneManagment;
+using UnityEngine.SceneManagement;
 
 
 public class PauseMenu : MonoBehaviour
@@ -44,8 +44,9 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quitting Game");
+        Debug.Log("Returning home...");
+
         // name of scene....
-        //SceneManager.LoadScene("");
+        SceneManager.LoadScene("Fran Test");
     }
 }
