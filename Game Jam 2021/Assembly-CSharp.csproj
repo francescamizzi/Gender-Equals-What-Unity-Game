@@ -47,13 +47,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Minigames\PuzzleManager.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
      <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Sound\PlaySoundOnStart.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
-     <Compile Include="Assets\Scripts\Minigames\PuzzleSlot.cs" />
-     <Compile Include="Assets\Scripts\Minigames\PuzzlePiece.cs" />
+     <Compile Include="Assets\Scripts\Minigames\SnapController.cs" />
+     <Compile Include="Assets\Scripts\Minigames\Draggable.cs" />
      <Compile Include="Assets\Scripts\pickupItems.cs" />
      <Compile Include="Assets\Scripts\ContinueUI.cs" />
      <Compile Include="Assets\Scripts\SetUp.cs" />
