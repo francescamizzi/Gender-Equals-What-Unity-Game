@@ -49,16 +49,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\makeBed.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
-     <Compile Include="Assets\Scripts\ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\Minigames\ItemSlot.cs" />
      <Compile Include="Assets\Scripts\pickupItems.cs" />
-     <Compile Include="Assets\YouWin.cs" />
-     <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\SetUp.cs" />
      <Compile Include="Assets\Scripts1\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\YouWin.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts1\Camera\FollowCharacter.cs" />
-     <Compile Include="Assets\Scripts\DragDrop.cs" />
+     <Compile Include="Assets\Scripts\Minigames\DragDrop.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
