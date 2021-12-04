@@ -17,7 +17,7 @@ public class Popup : MonoBehaviour
         transform.localScale = Vector3.one;
 
         Continue.onClick.AddListener(() => {
-            action();
+            //action();
         });
 
         Exit.onClick.AddListener(() => {

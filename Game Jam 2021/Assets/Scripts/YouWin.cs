@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class Popup : MonoBehaviour
+/*public class YouWin : MonoBehaviour
 {
     [SerializeField] Button Exit;
 
@@ -29,4 +29,4 @@ public class Popup : MonoBehaviour
             GameObject.Destroy(this.gameObject);
         });
     }
-}
+}*/
