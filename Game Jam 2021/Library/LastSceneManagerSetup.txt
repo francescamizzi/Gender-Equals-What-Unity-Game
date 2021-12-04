@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Character Gen.unity
+- path: Assets/Scenes/makebed.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
