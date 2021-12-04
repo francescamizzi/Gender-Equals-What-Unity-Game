@@ -55,14 +55,20 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\makeBed.cs" />
     <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
+    <Compile Include="Assets\Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\pickupItems.cs" />
+    <Compile Include="Assets\YouWin.cs" />
+    <Compile Include="Assets\Scripts\Popup.cs" />
     <Compile Include="Assets\Scripts\SetUp.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\YouWin.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\Camera\FollowCharacter.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Camera\FollowCharacter.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
+    <Compile Include="Assets\Scripts\WashDishes.cs" />
+    <Compile Include="Assets\Scripts\DragDrop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
