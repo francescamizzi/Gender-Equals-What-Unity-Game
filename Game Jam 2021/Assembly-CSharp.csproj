@@ -38,6 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\pickupItems.cs" />
      <Compile Include="Assets\scripts\makeBed.cs" />
+     <Compile Include="Assets\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
+     <Compile Include="Assets\Wizard - 2D Character\Demo\WizDemo1.cs" />
+     <Compile Include="Assets\Wizard - 2D Character\Demo\SimplePlayerController.cs" />
+     <Compile Include="Assets\scripts\NPCFollow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
