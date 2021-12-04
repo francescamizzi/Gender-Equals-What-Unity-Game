@@ -16,6 +16,11 @@ TagManager:
   - tidyBlanket
   - cleanRoomBox
   - pileOfClothes
+  - plant
+  - PatrolSpots
+  - patrol1
+  - patrol2
+  - patrol3
   layers:
   - Default
   - TransparentFX

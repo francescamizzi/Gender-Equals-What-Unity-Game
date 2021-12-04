@@ -15,11 +15,13 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        //animator.SetBool("IsOpen", false);
     }
 
     public void StartDialogue (Dialogue dialogue)
     {
-        animator.SetBool("IsOpen", true);
+        Debug.Log("Starting");
+        animator.SetBool("isOpen", true);
         nameText.text = dialogue.name;
 
         sentences.Clear();
@@ -42,11 +44,13 @@ public class DialogueManager : MonoBehaviour
 
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
+
+
     }
 
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
+        animator.SetBool("isOpen", false);
 
         Debug.Log("End of convo.");
     }
