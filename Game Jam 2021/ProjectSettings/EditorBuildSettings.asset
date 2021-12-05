@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GYM.unity
     guid: 9e7ec96ef46496a488763c499ba8354f
+  - enabled: 1
+    path: Assets/Scenes/Treadmill.unity
+    guid: 069a5c404dc3f044b9969dab24606799
+  - enabled: 1
+    path: Assets/Scenes/BedroomEnd.unity
+    guid: aa117b4b41576af44aa7bad3355a642c
   m_configObjects: {}

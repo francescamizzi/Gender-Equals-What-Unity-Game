@@ -39,6 +39,9 @@ TagManager:
   - dumbbells
   - gymTextBox
   - treadmillBox
+  - ball
+  - shelfBox
+  - femaleEnding
   layers:
   - Default
   - TransparentFX

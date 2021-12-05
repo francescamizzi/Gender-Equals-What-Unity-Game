@@ -42,7 +42,7 @@
      <Compile Include="Assets\Scripts\Objects\rightDoorCollision.cs" />
      <Compile Include="Assets\Scripts\StartBoxManager.cs" />
      <Compile Include="Assets\Scripts\Roomate\dogFollow.cs" />
-     <Compile Include="Assets\Scripts\treadmill.cs" />
+     <Compile Include="Assets\Scripts\Objects\treadmill.cs" />
      <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
      <Compile Include="Assets\Scripts\Objects\toGymCollision.cs" />
@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\UI\ContinueUI.cs" />
      <Compile Include="Assets\Scripts\itemsAppear.cs" />
      <Compile Include="Assets\Scripts\Roomate\PatrolSpots.cs" />
+     <Compile Include="Assets\Scripts\weightsGame.cs" />
      <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\hitf.cs" />
      <Compile Include="Assets\Scripts\SetUp.cs" />
@@ -75,13 +76,17 @@
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\Objects\cleanDishesCollision.cs" />
      <Compile Include="Assets\Scripts\WashDishes.cs" />
+     <Compile Include="Assets\Scripts\gymTextBox.cs" />
      <Compile Include="Assets\Scripts\UI\IntroMenu.cs" />
      <Compile Include="Assets\Scripts\Objects\makeBedCollision.cs" />
      <Compile Include="Assets\Scripts\DragDrop.cs" />
      <Compile Include="Assets\Scripts\ClickAndFill.cs" />
      <Compile Include="Assets\Scripts\Roomate\DebCollider.cs" />
      <Compile Include="Assets\Scripts\dumbbells.cs" />
-     <Compile Include="Assets\Scripts\gymTextBox.cs" />
+     <Compile Include="Assets\Scripts\treadmillGame.cs" />
+     <Compile Include="Assets\Scripts\Treadmill_game.cs" />
+     <Compile Include="Assets\Scripts\Objects\bathroomCollision.cs" />
+     <Compile Include="Assets\Scripts\Objects\shelfCollision.cs" />
      <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
      <None Include="Assets\Fonts\info.txt" />
      <None Include="Assets\Fonts\dogica_pixel_license.txt" />
