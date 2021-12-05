@@ -50,9 +50,10 @@
      <Compile Include="Assets\Scripts\StartBoxManager.cs" />
      <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
+     <Compile Include="Assets\Scripts\Objects\waterPlantCollision.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
      <Compile Include="Assets\Scripts\ItemSlot.cs" />
-     <Compile Include="Assets\Scripts\SnapController.cs" />
+     <Compile Include="Assets\Scripts\Minigames\SnapController.cs" />
      <Compile Include="Assets\Scripts\Minigames\Draggable.cs" />
      <Compile Include="Assets\Scripts\Roomate\WanderingBehaviour.cs" />
      <Compile Include="Assets\Scripts\Roomate\Idle.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\Camera\FollowCharacter.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\Objects\cleanDishesCollision.cs" />
      <Compile Include="Assets\Scripts\WashDishes.cs" />
      <Compile Include="Assets\Scripts\UI\IntroMenu.cs" />
      <Compile Include="Assets\Scripts\Objects\makeBedCollision.cs" />
