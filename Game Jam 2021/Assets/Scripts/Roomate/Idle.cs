@@ -6,7 +6,7 @@ public class Idle : StateMachineBehaviour
 {
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
+        
     }
 
 
@@ -19,5 +19,7 @@ public class Idle : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         //Instantiate(effect, animator.transform.position, Quaternion.identity);
+
+        
     }
 }
