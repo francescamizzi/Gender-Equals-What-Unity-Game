@@ -14,4 +14,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BedroomStart.unity
     guid: 203805256e27e4742858a4056d46e2f7
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom.unity
+    guid: 02e90fc03146d56458f2f0eeefde6f36
+  - enabled: 1
+    path: Assets/Scenes/cleanroom.unity
+    guid: cc2c7307602fbdd4482e17123a8dc520
+  - enabled: 1
+    path: Assets/Scenes/Roommate.unity
+    guid: 39c26b0fd76ba5d4aaa94ce5649ae5ac
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Minigames/makebed.unity
+    guid: 07b6576dfa5ae7e4e9fe69e96365ca6c
+  - enabled: 1
+    path: Assets/Scenes/Minigames/WashingClothes.unity
+    guid: 99a64f73f8707094ca9b3c3a0b81dc46
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Washing Dishes.unity
+    guid: d02e43405e0932440b0d125afdcef72f
+  - enabled: 1
+    path: Assets/Scenes/Minigames/PlantWatering.unity
+    guid: cd102cbfaa9ea4349817c555fe10ef01
+  - enabled: 1
+    path: Assets/Scenes/Minigames/DogFood.unity
+    guid: 83900117d7400da4a8eaf64dc5480b91
   m_configObjects: {}

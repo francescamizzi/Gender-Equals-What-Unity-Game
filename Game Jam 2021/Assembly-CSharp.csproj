@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Minigames\Draggable.cs" />
      <Compile Include="Assets\Scripts\Roomate\WanderingBehaviour.cs" />
      <Compile Include="Assets\Scripts\Roomate\Idle.cs" />
+     <Compile Include="Assets\Scripts\UI\Instructions.cs" />
      <Compile Include="Assets\Scripts\FillFood.cs" />
      <Compile Include="Assets\Scripts\pickupItems.cs" />
      <Compile Include="Assets\Scripts\UI\ContinueUI.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Scripts\Objects\makeBedCollision.cs" />
      <Compile Include="Assets\Scripts\DragDrop.cs" />
      <Compile Include="Assets\Scripts\ClickAndFill.cs" />
+     <Compile Include="Assets\Scripts\Roomate\DebCollider.cs" />
      <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
      <None Include="Assets\Fonts\info.txt" />
      <None Include="Assets\Fonts\dogica_pixel_license.txt" />
