@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WashingDishes.unity
     guid: c3ad6e4d425b44c4cb19b0f088fcf20a
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom2.unity
+    guid: f185bacfecb291b49a7786b70d583fd7
   m_configObjects: {}

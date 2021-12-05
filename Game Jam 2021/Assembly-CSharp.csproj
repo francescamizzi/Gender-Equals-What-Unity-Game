@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
      <Compile Include="Assets\Scripts\Objects\waterPlantCollision.cs" />
+     <Compile Include="Assets\Scripts\dishesAppear.cs" />
      <Compile Include="Assets\Scripts\Objects\leftDoorCollision.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
      <Compile Include="Assets\Scripts\ItemSlot.cs" />
@@ -76,7 +77,8 @@
      <Compile Include="Assets\Scripts\DragDrop.cs" />
      <Compile Include="Assets\Scripts\ClickAndFill.cs" />
      <Compile Include="Assets\Scripts\Roomate\DebCollider.cs" />
-     <Compile Include="Assets\Scripts\dishesAppear.cs" />
+     <Compile Include="Assets\Scripts\Objects\hangClothesCollision.cs" />
+     <Compile Include="Assets\Scripts\Objects\toGymCollision.cs" />
      <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
      <None Include="Assets\Fonts\info.txt" />
      <None Include="Assets\Fonts\dogica_pixel_license.txt" />

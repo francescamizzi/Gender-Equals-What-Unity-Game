@@ -32,6 +32,9 @@ TagManager:
   - rightDoor
   - rightDoorBox
   - dirtyPlates
+  - hitf
+  - maleTextBox
+  - hangClothesBox
   layers:
   - Default
   - TransparentFX

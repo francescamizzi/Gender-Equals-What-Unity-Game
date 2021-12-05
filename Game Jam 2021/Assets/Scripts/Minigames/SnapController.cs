@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SnapController : MonoBehaviour
 {
@@ -44,6 +45,12 @@ public class SnapController : MonoBehaviour
         if(counter == 4)
         {
             Debug.Log("Round Won");
+            nextScene();
         }
     } 
+
+    public void nextScene()
+    {
+        SceneManager.UnloadSceneAsync("WashingClothes");
+    }
 }

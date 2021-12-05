@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class hitm : MonoBehaviour
 {
@@ -51,7 +52,8 @@ public class hitm : MonoBehaviour
 
     public void changeScene()
     {
+        SceneManager.LoadScene("LivingRoom2");
         maleTextBox.SetActive(false);
-        //SceneManager.LoadScene("makebed", LoadSceneMode.Additive);
+        
     }
 }
