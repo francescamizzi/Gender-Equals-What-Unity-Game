@@ -58,7 +58,7 @@ public class ClickAndFill : MonoBehaviour
         {
             
             c1.SetActive(true);
-            can.transform.position = new Vector3(1.17f, 44.9f, 0f);
+            can.transform.position = new Vector3(1, 108.7f, 0f);
             slider.value = 0;
             slider.transform.position = new Vector3(-22f, -140f, 0f);
 
@@ -66,7 +66,7 @@ public class ClickAndFill : MonoBehaviour
         else if(mcnt == 10)
         {
             c2.SetActive(true);
-            can.transform.position = new Vector3(7.48f, 44.9f, 0f);
+            can.transform.position = new Vector3(7f, 108.7f, 0f);
             slider.value = 0;
             slider.transform.position = new Vector3(227f, -140f, 0f);
         }

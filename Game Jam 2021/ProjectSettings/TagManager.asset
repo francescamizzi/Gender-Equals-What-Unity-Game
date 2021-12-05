@@ -22,10 +22,19 @@ TagManager:
   - patrol2
   - patrol3
   - Smudge
+  - bedroomDoor
+  - leaveRoomBox
+  - tasksLeftBox
+  - sink
+  - waterPlantsBox
+  - cleanDishesBox
+  - leftDoorBox
+  - rightDoor
+  - rightDoorBox
+  - dirtyPlates
   - hitf
   - maleTextBox
-  - treadmill
-  - dumbbells
+  - hangClothesBox
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class DebCollider : MonoBehaviour
 {
 
     private Animator anim;
+    public Dialogue dialogue;
 
     void Start()
     {
@@ -17,6 +18,13 @@ public class DebCollider : MonoBehaviour
         {
             Debug.Log("Hadmet");
             anim.SetBool("isWandering", false);
+            TriggerDialogue();
+            
+        }
+
+        void TriggerDialogue()
+        {
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         }
     }
 }

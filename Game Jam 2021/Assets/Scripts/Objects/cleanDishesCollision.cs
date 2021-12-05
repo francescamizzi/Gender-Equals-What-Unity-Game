@@ -8,11 +8,13 @@ public class cleanDishesCollision : MonoBehaviour
 
     private GameObject cleanDishesBox;
     private Vector3 scaleChange;
+    private GameObject dirtyDishes;
 
     // Start is called before the first frame update
     void Start()
     {
         cleanDishesBox = GameObject.FindGameObjectWithTag("cleanDishesBox");
+        dirtyDishes = GameObject.FindGameObjectWithTag("dirtyPlates");
         scaleChange = new Vector3(2.346f, 1.545937f, 1f);
     }
 
@@ -35,6 +37,7 @@ public class cleanDishesCollision : MonoBehaviour
     public void changeScene()
     {
         cleanDishesBox.SetActive(false);
+        dirtyDishes.SetActive(false);
         SceneManager.LoadScene("WashingDishes", LoadSceneMode.Additive);
     }
 }

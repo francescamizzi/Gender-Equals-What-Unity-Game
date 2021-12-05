@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/WashingClothes.unity
     guid: 99a64f73f8707094ca9b3c3a0b81dc46
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Minigames/Washing Dishes.unity
     guid: d02e43405e0932440b0d125afdcef72f
   - enabled: 1
@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/DogFood.unity
     guid: 83900117d7400da4a8eaf64dc5480b91
+  - enabled: 1
+    path: Assets/Scenes/Mall.unity
+    guid: be235da1bd0132e4fb4a849cdc1f739a
+  - enabled: 1
+    path: Assets/Scenes/WashingDishes.unity
+    guid: c3ad6e4d425b44c4cb19b0f088fcf20a
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom2.unity
+    guid: f185bacfecb291b49a7786b70d583fd7
   m_configObjects: {}
