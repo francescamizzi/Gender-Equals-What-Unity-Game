@@ -39,16 +39,15 @@ public class pickupItems : MonoBehaviour
     {
         if (counter == 5)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);    
         }    
+    }
+
+    public void nextScene()
+    {
+        SceneManager.UnloadSceneAsync("cleanroom");
     }
 }
 
-/*
-    public void nextScene()
-    {
-        SceneManager.UnloadSceneAsync("makebed");
-        items = GameObject.FindObjectOfType(typeof(itemsAppear)) as itemsAppear;
-        items.blanketAppears(success);
-    }
-*/
+
+    

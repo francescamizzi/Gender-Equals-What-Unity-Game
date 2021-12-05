@@ -35,6 +35,7 @@ public class cleanRoomCollision : MonoBehaviour
     public void changeScene()
     {
         cleanRoomBox.SetActive(false);
+        pileofClothes.SetActive(false);
         SceneManager.LoadScene("cleanroom", LoadSceneMode.Additive);
     }
 
