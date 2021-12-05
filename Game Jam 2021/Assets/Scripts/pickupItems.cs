@@ -15,42 +15,40 @@ public class pickupItems : MonoBehaviour
     public AudioClip audioClip;
     private int counter = 0;
     public bool success = false;
-    public GameObject check;
-    public GameObject nextButton;
-
-    public itemsAppear items;
-
-    void Start()
-    {
-        check.SetActive(false);
-        nextButton.SetActive(false);
-    }
 
     void OnMouseDown(){
         gameObject.SetActive(false);
         audio.PlayOneShot(audioClip);
-        counter = counter + 1;
+        counter++;
 
-        if (counter >= 6)
+        if (counter == 5)
         {
             gameObject.SetActive(false);
             audio.PlayOneShot(audioClip);
             success = true;
-
-            check.SetActive(true);
-            nextButton.SetActive(true);
         }
 
-            if (!gameObject.activeSelf){
+        if (!gameObject.activeSelf)
+        {
             print("Clothes picked up successfully!");
             print("counter: " + counter);
         }
     }
-
-    public void nextScene()
+    
+    void Update()
     {
-        SceneManager.UnloadSceneAsync("cleanroom");
-        items = GameObject.FindObjectOfType(typeof(itemsAppear)) as itemsAppear;
-        items.clothesDisappear(success);
+        if (counter == 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
+        }    
     }
 }
+
+/*
+    public void nextScene()
+    {
+        SceneManager.UnloadSceneAsync("makebed");
+        items = GameObject.FindObjectOfType(typeof(itemsAppear)) as itemsAppear;
+        items.blanketAppears(success);
+    }
+*/
