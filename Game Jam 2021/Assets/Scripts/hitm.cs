@@ -45,7 +45,6 @@ public class hitm : MonoBehaviour
             void OnMouseDown()
             {
                 maleTextBox.transform.localScale -= scaleChange;
-                Debug.Log("IDDEJJAQT");
             }
         }
     }
@@ -55,5 +54,9 @@ public class hitm : MonoBehaviour
         SceneManager.LoadScene("LivingRoom2");
         maleTextBox.SetActive(false);
         
+    }
+
+    public void ToggleBox(){
+
     }
 }

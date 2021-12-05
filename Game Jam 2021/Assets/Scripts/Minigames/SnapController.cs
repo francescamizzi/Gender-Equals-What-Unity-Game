@@ -10,6 +10,8 @@ public class SnapController : MonoBehaviour
     public float snapRange = 10f;
     int counter = 0;
 
+    public gymTextBox textBox;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,5 +54,7 @@ public class SnapController : MonoBehaviour
     public void nextScene()
     {
         SceneManager.UnloadSceneAsync("WashingClothes");
+        textBox = GameObject.FindObjectOfType(typeof(gymTextBox)) as gymTextBox;
+        textBox.ToggleBox();
     }
 }

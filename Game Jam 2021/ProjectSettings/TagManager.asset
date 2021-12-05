@@ -35,6 +35,10 @@ TagManager:
   - hitf
   - maleTextBox
   - hangClothesBox
+  - treadmill
+  - dumbbells
+  - gymTextBox
+  - treadmillBox
   layers:
   - Default
   - TransparentFX
