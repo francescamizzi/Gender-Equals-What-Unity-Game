@@ -21,6 +21,9 @@ TagManager:
   - patrol1
   - patrol2
   - patrol3
+  - waterPlantsBox
+  - cleanDishesBox
+  - sink
   layers:
   - Default
   - TransparentFX
