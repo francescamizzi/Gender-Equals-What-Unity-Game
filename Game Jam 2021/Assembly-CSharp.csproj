@@ -47,6 +47,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\hitm.cs" />
+     <Compile Include="Assets\Scripts\Camera\MallCamera.cs" />
      <Compile Include="Assets\Scripts\StartBoxManager.cs" />
      <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
@@ -63,6 +65,7 @@
      <Compile Include="Assets\YouWin.cs" />
      <Compile Include="Assets\Scripts\Roomate\PatrolSpots.cs" />
      <Compile Include="Assets\Scripts\Popup.cs" />
+     <Compile Include="Assets\Scripts\hitf.cs" />
      <Compile Include="Assets\Scripts\SetUp.cs" />
      <Compile Include="Assets\Scripts\ProgressBar.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
