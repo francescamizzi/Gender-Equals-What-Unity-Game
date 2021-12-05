@@ -36,12 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Objects\bedroomDoorCollision.cs" />
      <Compile Include="Assets\Scripts\hitm.cs" />
      <Compile Include="Assets\Scripts\Camera\MallCamera.cs" />
+     <Compile Include="Assets\Scripts\Objects\rightDoorCollision.cs" />
      <Compile Include="Assets\Scripts\StartBoxManager.cs" />
+     <Compile Include="Assets\Scripts\Roomate\dogFollow.cs" />
      <Compile Include="Assets\Scripts\Objects\cleanRoomCollision.cs" />
      <Compile Include="Assets\Scripts\makeBed.cs" />
      <Compile Include="Assets\Scripts\Objects\waterPlantCollision.cs" />
+     <Compile Include="Assets\Scripts\Objects\leftDoorCollision.cs" />
      <Compile Include="Assets\Scripts\CharacterGeneration.cs" />
      <Compile Include="Assets\Scripts\ItemSlot.cs" />
      <Compile Include="Assets\Scripts\Minigames\SnapController.cs" />
@@ -72,10 +76,7 @@
      <Compile Include="Assets\Scripts\DragDrop.cs" />
      <Compile Include="Assets\Scripts\ClickAndFill.cs" />
      <Compile Include="Assets\Scripts\Roomate\DebCollider.cs" />
-     <Compile Include="Assets\Scripts\Objects\bedroomDoorCollision.cs" />
-     <Compile Include="Assets\Scripts\Objects\leftDoorCollision.cs" />
-     <Compile Include="Assets\Scripts\Objects\rightDoorCollision.cs" />
-     <Compile Include="Assets\Scripts\Roomate\dogFollow.cs" />
+     <Compile Include="Assets\Scripts\dishesAppear.cs" />
      <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
      <None Include="Assets\Fonts\info.txt" />
      <None Include="Assets\Fonts\dogica_pixel_license.txt" />
@@ -668,6 +669,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\nicol\OneDrive\Documents\GitHub\GameJam2021\Game Jam 2021\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\Users\nicol\OneDrive\Documents\GitHub\GameJam2021\Game Jam 2021\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\nicol\OneDrive\Documents\GitHub\GameJam2021\Game Jam 2021\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -679,9 +683,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\nicol\OneDrive\Documents\GitHub\GameJam2021\Game Jam 2021\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\Users\nicol\OneDrive\Documents\GitHub\GameJam2021\Game Jam 2021\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

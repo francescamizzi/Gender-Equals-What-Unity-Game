@@ -290,7 +290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -10}
+  m_AnchoredPosition: {x: -170, y: -13}
   m_SizeDelta: {x: 665, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203314347
@@ -371,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259, y: -25}
+  m_AnchoredPosition: {x: 429, y: -25}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210729959
@@ -740,7 +740,7 @@ MonoBehaviour:
   dialogue:
     name: Alex
     sentences:
-    - That is a very cool suit!
+    - Those suits look really fancy.
 --- !u!4 &414565751
 Transform:
   m_ObjectHideFlags: 0
@@ -1377,7 +1377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -251, y: 30}
+  m_AnchoredPosition: {x: -424, y: 27}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264761977
@@ -1579,8 +1579,8 @@ MonoBehaviour:
   dialogue:
     name: Alex
     sentences:
-    - 'We have finally arrived! '
-    - What a pretty dress!
+    - We're finally here. I've been meaning to come ere for ages.
+    - What lovely bags!
 --- !u!114 &1360069730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2694,8 +2694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -138.1}
-  m_SizeDelta: {x: 700, y: 100}
+  m_AnchoredPosition: {x: 0, y: -191}
+  m_SizeDelta: {x: 1100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2145210135
 Animator:

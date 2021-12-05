@@ -44,7 +44,7 @@ public class hitm : MonoBehaviour
             void OnMouseDown()
             {
                 maleTextBox.transform.localScale -= scaleChange;
-                Debug.Log("IIDEJAQT");
+                Debug.Log("IDDEJJAQT");
             }
         }
     }
