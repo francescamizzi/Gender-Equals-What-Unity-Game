@@ -34,11 +34,12 @@ public class pickupItems : MonoBehaviour
             print("counter: " + counter);
         }
     }
-        void Update()
+    
+    void Update()
     {
         if (counter == 5)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);        
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
         }    
     }
 }
