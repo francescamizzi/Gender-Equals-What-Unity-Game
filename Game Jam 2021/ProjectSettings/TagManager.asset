@@ -21,6 +21,11 @@ TagManager:
   - patrol1
   - patrol2
   - patrol3
+  - Smudge
+  - hitf
+  - maleTextBox
+  - treadmill
+  - dumbbells
   layers:
   - Default
   - TransparentFX
