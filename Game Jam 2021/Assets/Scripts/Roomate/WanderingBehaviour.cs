@@ -13,16 +13,24 @@ public class WanderingBehaviour : StateMachineBehaviour
     {
         patrol = GameObject.FindGameObjectWithTag("PatrolSpots").GetComponent<PatrolSpots>();
         randomSpot = Random.Range(0, patrol.patrolPoints.Length);
+        
     }
 
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
+
         if (Vector2.Distance(animator.transform.position, patrol.patrolPoints[randomSpot].position) > 0.2f)
         {
             animator.transform.position = Vector2.MoveTowards(animator.transform.position, patrol.patrolPoints[randomSpot].position, speed * Time.deltaTime);
-        
+
+            if (randomSpot == 0)
+            {
+                animator.SetBool("isLeft", true);
+            } else if (randomSpot == 1)
+            {
+                animator.SetBool("isLeft", false);
+            }
 
         }
         else
@@ -35,6 +43,5 @@ public class WanderingBehaviour : StateMachineBehaviour
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
     }
 }

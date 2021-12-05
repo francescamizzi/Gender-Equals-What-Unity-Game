@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class ClickAndFill : MonoBehaviour
 {
@@ -56,21 +58,23 @@ public class ClickAndFill : MonoBehaviour
         {
             
             c1.SetActive(true);
-            can.transform.position = new Vector3(1.3f, 1.5f, 0f);
+            can.transform.position = new Vector3(1.17f, 44.9f, 0f);
             slider.value = 0;
-            slider.transform.position = new Vector3(-0.8f,-3.2f,0f);
+            slider.transform.position = new Vector3(-22f, -140f, 0f);
 
         }
         else if(mcnt == 10)
         {
             c2.SetActive(true);
-            can.transform.position = new Vector3(8.4f, 1.5f, 0f);
+            can.transform.position = new Vector3(7.48f, 44.9f, 0f);
             slider.value = 0;
-            slider.transform.position = new Vector3(6.2f, -3.2f, 0f);
+            slider.transform.position = new Vector3(227f, -140f, 0f);
         }
         else if(mcnt == 15)
         {
             c3.SetActive(true);
+            nextScene();
+
         }
             
     }
@@ -81,8 +85,8 @@ public class ClickAndFill : MonoBehaviour
         targetProgress = slider.value + newProg;
     }
 
-    public void reset(GameObject go)
+    public void nextScene()
     {
-        go.transform.Rotate(new Vector3(0f, 0f, 0f));
+        SceneManager.UnloadSceneAsync("PlantWatering");
     }
 }
