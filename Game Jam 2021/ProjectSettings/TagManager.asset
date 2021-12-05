@@ -16,6 +16,10 @@ TagManager:
   - tidyBlanket
   - cleanRoomBox
   - pileOfClothes
+  - Smudge
+  - hitf
+  - femaleTextBox
+  - maleTextBox
   layers:
   - Default
   - TransparentFX
