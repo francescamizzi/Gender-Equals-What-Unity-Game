@@ -9,9 +9,11 @@ public class SetUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mChar = CharacterGeneration.RandomChar();
+        //mChar = CharacterGeneration.RandomChar();
 
-        mChar.sayHi();
+       // mChar.sayHi();
+      //  Debug.Log(mChar);
+
     }
 
     // Update is called once per frame

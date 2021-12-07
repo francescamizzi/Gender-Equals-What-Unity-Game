@@ -6,14 +6,56 @@ public class CharacterGeneration : MonoBehaviour
 {
     public static List<string> genders = new List<string> { "Male", "Female" };
 
-    public static Character RandomChar()
+    public string gender;
+
+    Character mChar;
+
+    public GameObject femaleEnding;
+    public GameObject maleEnding;
+
+
+    public void RandomChar()
     {
+
         int rndG = Random.Range(0, genders.Count);
-        //Debug.Log(rndG);
+        Debug.Log(rndG);
 
-        //create new char 
-        Character newChar = new Character(genders[rndG]);
+        //Character newChar = new Character(genders[rndG]);
 
-        return newChar;
+        if (rndG == 0)
+        {
+            maleEnding.SetActive(true);
+            Debug.Log("Male");
+        }
+
+        else if (rndG == 1)
+        {
+            femaleEnding.SetActive(true);
+            Debug.Log("Female");
+
+        }
+
+        //return newChar;
+    }
+
+    void Start()
+    {
+        femaleEnding.SetActive(false);
+        maleEnding.SetActive(false);
+
+        //RandomChar();
+        //mChar.sayHi();
+        //Debug.Log(gen);
+
+        
+    }
+
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            RandomChar();
+        }
     }
 }
