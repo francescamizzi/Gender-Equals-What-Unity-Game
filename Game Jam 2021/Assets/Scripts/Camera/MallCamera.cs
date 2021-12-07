@@ -28,6 +28,6 @@ public class MallCamera : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player").transform;
         }
-        transform.position = new Vector3(player.position.x+10, player.position.y, transform.position.z);
+        transform.position = new Vector3(player.position.x+7, player.position.y, transform.position.z);
     }
 }
