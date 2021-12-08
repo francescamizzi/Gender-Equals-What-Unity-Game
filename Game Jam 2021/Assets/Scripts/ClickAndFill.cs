@@ -50,15 +50,15 @@ public class ClickAndFill : MonoBehaviour
         {
             source.PlayOneShot(clip);
             IncrementProgress(0.2f);
-            
+            can.active = true;
             mcnt++;
 
         }
         if (mcnt == 5)
         {
-            
             c1.SetActive(true);
-            can.transform.position = new Vector3(1, 108.7f, 0f);
+            can.active = true;
+            can.transform.position = new Vector3(1f, 108.7f, 0f);
             slider.value = 0;
             slider.transform.position = new Vector3(-22f, -140f, 0f);
 
@@ -66,9 +66,11 @@ public class ClickAndFill : MonoBehaviour
         else if(mcnt == 10)
         {
             c2.SetActive(true);
+            can.active = true;
             can.transform.position = new Vector3(7f, 108.7f, 0f);
             slider.value = 0;
             slider.transform.position = new Vector3(227f, -140f, 0f);
+
         }
         else if(mcnt == 15)
         {

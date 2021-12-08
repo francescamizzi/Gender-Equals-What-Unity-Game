@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Mall.unity
+- path: Assets/Scenes/PlantWatering.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
