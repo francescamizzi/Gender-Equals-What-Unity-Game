@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class weightsGame : MonoBehaviour
 {
@@ -44,7 +44,7 @@ public class weightsGame : MonoBehaviour
             Vector3 pos = Input.mousePosition;
             Collider2D hitCollider = Physics2D.OverlapPoint(Camera.main.ScreenToWorldPoint(pos));
 
-            if (hitCollider != null && hitCollider.CompareTag("dumbbells") && cnt == 0)
+            if (cnt == 0)
             {
                 Debug.Log("hit");
                 Destroy(GameObject.FindWithTag("dumbbells"));
@@ -52,7 +52,7 @@ public class weightsGame : MonoBehaviour
                 cnt++;
                 Spawn();
             }
-            else if (hitCollider != null && hitCollider.CompareTag("dumbbells") && cnt == 1)
+            else if (cnt == 1)
             {
                 Debug.Log("hit");
                 Destroy(GameObject.FindWithTag("dumbbells"));
@@ -60,12 +60,13 @@ public class weightsGame : MonoBehaviour
                 cnt++;
                 Spawn();
             }
-            else if (hitCollider != null && hitCollider.CompareTag("dumbbells") && cnt == 2)
+            else if (cnt == 2)
             {
                 Debug.Log("hit");
                 Destroy(GameObject.FindWithTag("dumbbells"));
                 print3.SetActive(true);
                 cnt++;
+                SceneManager.UnloadSceneAsync("weights");
             }
         }
     }
@@ -89,7 +90,4 @@ public class weightsGame : MonoBehaviour
             }
         }
     }
-
-
-
 }

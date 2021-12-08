@@ -558,7 +558,7 @@ MonoBehaviour:
   shoeprint1: {fileID: 592888541}
   shoeprint2: {fileID: 1301274665}
   shoeprint3: {fileID: 1409293686}
-  ball: {fileID: 0}
+  ball: {fileID: 8022815685533446100, guid: 1248acb779c3b0447b7f4a980d399072, type: 3}
 --- !u!212 &1957465602
 SpriteRenderer:
   m_ObjectHideFlags: 0

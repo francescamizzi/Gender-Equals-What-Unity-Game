@@ -42,6 +42,7 @@ TagManager:
   - ball
   - shelfBox
   - femaleEnding
+  - weightBox
   layers:
   - Default
   - TransparentFX
